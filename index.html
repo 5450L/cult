@@ -12,7 +12,8 @@
     />
     <link rel="stylesheet" href="/styles/reset.css" />
     <link rel="stylesheet" href="/styles/styles.css" />
-
+    <link rel="stylesheet" href="/styles/header.css" />
+    <link rel="stylesheet" href="/styles/banners.css" />
     <title>Cult</title>
   </head>
   <body>
@@ -23,16 +24,18 @@
         </div>
 
         <ul class="nav">
-          <li><a href="">Головна</a></li>
+          <li><a href="" class="active">Головна</a></li>
           <li><a href="">Афіша</a></li>
           <li><a href="">Команда</a></li>
           <li><a href="">Контакти</a></li>
           <li><a href="">Оренда</a></li>
         </ul>
 
-        <img src="/assets/glasses.png" alt="glasses" />
+        <img src="/assets/glasses.png" alt="glasses" class="glasses" />
 
-        <div class="languages"><span>UA</span>|<span>EN</span></div>
+        <div class="languages">
+          <span class="chosen-language">UA</span>|<span>EN</span>
+        </div>
 
         <div class="phone-block">
           <p class="phone">+ 380 97 347 84 24</p>
@@ -48,7 +51,7 @@
         </p>
       </aside>
       <aside class="right banner">
-        <h2 class="banner-title">Рекламний банер</h2>
+        <h2 class="banner-title">Завантажуй додаток</h2>
         <div class="download-buttons">
           <img src="/assets/download/googleplay.png" />
           <img src="/assets/download/applestore.png" />

@@ -1,0 +1,39 @@
+aside {
+  position: fixed;
+  height: 700px;
+  width: 300px;
+  top: 190px;
+  text-align: center;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.left {
+  left: 160px;
+  width: 244px;
+  background-color: rgba(40, 61, 109, 0.04);
+  background-image: url("/assets/background-images/advertisementBanner.png");
+}
+.left .banner-title {
+  margin: 40px auto;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 0 50px;
+}
+.banner-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 0 29px;
+}
+
+.right {
+  right: 160px;
+}
+
+.banner-title {
+  text-transform: uppercase;
+}
