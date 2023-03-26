@@ -12,7 +12,7 @@ aside {
   align-items: center;
 }
 .left {
-  left: 160px;
+  left: 8.3%;
   width: 244px;
   background-color: rgba(40, 61, 109, 0.04);
   background-image: url("/assets/background-images/advertisementBanner.png");
@@ -31,7 +31,7 @@ aside {
 }
 
 .right {
-  right: 160px;
+  right: 8.3%;
 }
 .right .banner-title {
   font-weight: 700;

@@ -4,6 +4,10 @@ body {
   color: #1c1f24;
 }
 
+img {
+  border-radius: 10px;
+}
+
 .page-container {
   width: 896px;
   margin: 90px auto 150px auto;
