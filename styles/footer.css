@@ -1,0 +1,34 @@
+footer {
+  display: flex;
+  align-items: center;
+  background-color: rgba(40, 61, 109, 1);
+  height: 317px;
+  color: rgba(255, 255, 255, 1);
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 44%;
+  margin: auto;
+}
+
+.footer-container .nav {
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+}
+.footer-container .social-media {
+  justify-content: space-between;
+  margin-top: 77px;
+  padding: 0;
+  border: none;
+}
+.privacy {
+  width: 212px;
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 200%;
+  color: #7a88a7;
+}

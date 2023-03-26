@@ -1,5 +1,5 @@
 aside {
-  position: fixed;
+  position: absolute;
   height: 700px;
   width: 300px;
   top: 190px;
@@ -33,7 +33,36 @@ aside {
 .right {
   right: 160px;
 }
+.right .banner-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  padding: 14px 0;
+}
 
 .banner-title {
   text-transform: uppercase;
+}
+
+.download-buttons {
+  display: flex;
+  gap: 12px;
+  padding-bottom: 16px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(212, 216, 226, 1);
+}
+
+.social-media {
+  width: 100%;
+  padding-top: 20px;
+  margin-top: 20px;
+  border-top: 1px solid rgba(212, 216, 226, 1);
+
+  display: flex;
+  justify-content: space-evenly;
+}
+.social-media img:hover,
+.download-buttons img:hover {
+  cursor: pointer;
+  opacity: 0.5;
 }
