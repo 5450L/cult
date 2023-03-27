@@ -25,8 +25,6 @@
   width: 100%;
   height: 400px;
 }
-.performance-content-block {
-}
 .performance-content-block-title {
   font-weight: 700;
   font-size: 24px;
@@ -34,4 +32,108 @@
   margin-bottom: 30px;
 }
 .closest-dates {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.close-date {
+  display: flex;
+  gap: 87px;
+  padding: 40px 0;
+  border-bottom: 1px solid #d4d8e2;
+}
+
+.date {
+  position: relative;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  color: #1c1f24;
+}
+.day-of-week {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+  color: #1c1f24;
+}
+.close-date-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.close-date-time strong {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: #1c1f24;
+}
+.close-date-views {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.views {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: right;
+  color: #606060;
+}
+.author-age {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #1c1f24;
+}
+.available-tickets {
+  padding: 10px 20px;
+  gap: 20px;
+  width: 350px;
+  height: 42px;
+  background: #d4d8e2;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #283d6d;
+  margin-bottom: 30px;
+}
+.available-tickets:hover {
+  background-color: #283d6d;
+  color: rgba(255, 255, 255, 0.533);
+}
+.buy-ticket {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 140%;
+  color: #606060;
+}
+.buy-ticket:hover {
+  text-decoration: underline;
+}
+.more-info-tag {
+  display: flex;
+  gap: 87px;
+  padding: 40px 0;
+}
+.more-info-tag p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #1c1f24;
+}
+.more-info-title {
+  min-width: 240px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1c1f24;
 }
