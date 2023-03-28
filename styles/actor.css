@@ -1,0 +1,16 @@
+.description-tags li {
+  gap: 10px;
+}
+.tag-title {
+  min-width: 51px;
+  max-width: 51px;
+}
+.bio {
+  margin-left: 60px;
+}
+.performance-content-block {
+  margin-top: 60px;
+}
+.block-content {
+  justify-content: left;
+}

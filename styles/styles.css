@@ -120,7 +120,8 @@ img {
 }
 
 .tag-title {
-  width: 92px;
+  min-width: 92px;
+  max-width: 92px;
 }
 .tag-content {
   width: 140px;

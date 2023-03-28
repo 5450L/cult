@@ -1,0 +1,16 @@
+.container-topic {
+  background-image: url("/assets/background-images/contacts.png");
+  margin-bottom: 151px;
+}
+.container-description {
+  margin-top: 92px;
+  margin-bottom: 120px;
+}
+.tag-title {
+  min-width: 300px;
+  max-width: 300px;
+}
+
+.map {
+  margin-top: 112px;
+}

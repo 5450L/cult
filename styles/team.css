@@ -1,0 +1,16 @@
+.container-topic {
+  background-image: url("/assets/background-images/masks.png");
+  margin-bottom: 20px;
+}
+.container-description {
+  margin-top: 92px;
+  margin-bottom: 120px;
+}
+
+.block-content {
+  display: flex;
+  justify-content: flex-start;
+  gap: 13px;
+  flex-wrap: wrap;
+  overflow: auto;
+}
