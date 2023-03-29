@@ -1,7 +1,9 @@
 body {
+  position: relative;
   font-family: "Montserrat";
   font-style: normal;
   color: #1c1f24;
+  z-index: 1;
 }
 
 img {
@@ -10,7 +12,7 @@ img {
 
 .page-container {
   width: 896px;
-  margin: 90px auto 150px auto;
+  margin: 190px auto 150px auto;
 }
 
 .container-topic {

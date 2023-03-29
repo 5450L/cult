@@ -1,6 +1,7 @@
 .container-topic {
   background-image: url("/assets/background-images/contacts.png");
-  margin-bottom: 151px;
+  margin-top: 90px;
+  margin-bottom: 50px;
 }
 .container-description {
   margin-top: 92px;
@@ -9,8 +10,27 @@
 .tag-title {
   min-width: 300px;
   max-width: 300px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
 }
 
 .map {
   margin-top: 112px;
+  border-radius: 10px;
+}
+
+.description-tags {
+  padding-top: 100px;
+  border-top: 1px solid rgba(212, 216, 226, 1);
+}
+
+.description-tags li {
+  margin-top: 30px;
+}
+.premiere-tag-content {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #1c1f24;
 }

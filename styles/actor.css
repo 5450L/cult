@@ -14,3 +14,12 @@
 .block-content {
   justify-content: left;
 }
+
+.more-info-tag:not(:first-child) {
+  margin-top: 100px;
+  padding-top: 0;
+}
+
+#performances.more-info-title {
+  margin-top: 100px;
+}

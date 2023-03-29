@@ -1,4 +1,5 @@
 footer {
+  position: relative;
   display: flex;
   align-items: center;
   background-color: rgba(40, 61, 109, 1);
@@ -13,7 +14,9 @@ footer {
 }
 
 .footer-container .nav {
+  width: 186px;
   flex-direction: column;
+  align-items: start;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
@@ -31,4 +34,14 @@ footer {
   font-size: 15px;
   line-height: 200%;
   color: #7a88a7;
+}
+
+.scroll-button {
+  position: absolute;
+  top: -45px;
+  right: 160px;
+}
+.scroll-button:hover {
+  cursor: pointer;
+  opacity: 0.5;
 }

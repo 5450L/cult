@@ -1,14 +1,24 @@
+aside {
+  top: 0;
+}
+
 .page-container {
-  margin-top: 22px;
+  margin-top: 182px;
 }
 .secondary-nav {
+  top: 100px;
+  width: 896px;
+  position: fixed;
   display: flex;
   gap: 25px;
   font-weight: 400;
   font-size: 16px;
   line-height: 100%;
+  padding-top: 22px;
   padding-bottom: 22px;
   border-bottom: 1px solid #d4d8e2;
+  background-color: white;
+  z-index: 3;
 }
 
 .performance-topic {
@@ -31,6 +41,9 @@
   line-height: 29px;
   margin-bottom: 30px;
 }
+#closest-dates {
+  margin-bottom: -10px;
+}
 .closest-dates {
   width: 100%;
   display: flex;
@@ -45,6 +58,7 @@
 }
 
 .date {
+  min-width: 244px;
   position: relative;
   font-weight: 700;
   font-size: 40px;
@@ -119,10 +133,13 @@
 .buy-ticket:hover {
   text-decoration: underline;
 }
+.more-info {
+  margin-top: 60px;
+}
 .more-info-tag {
   display: flex;
   gap: 87px;
-  padding: 40px 0;
+  padding-top: 40px;
 }
 .more-info-tag p {
   font-weight: 400;
@@ -136,4 +153,9 @@
   font-size: 24px;
   line-height: 29px;
   color: #1c1f24;
+}
+
+#production-team.more-info-title,
+#actors.more-info-title {
+  margin-top: 100px;
 }

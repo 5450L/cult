@@ -2,8 +2,9 @@ aside {
   position: absolute;
   height: 700px;
   width: 300px;
-  top: 190px;
+  top: 0;
   text-align: center;
+  z-index: 2;
 }
 
 .banner {
