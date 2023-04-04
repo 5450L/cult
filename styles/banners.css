@@ -70,3 +70,9 @@ aside {
 .social-media img {
   border-radius: 0;
 }
+
+@media (max-width: 1700px) {
+  .banner {
+    display: none;
+  }
+}

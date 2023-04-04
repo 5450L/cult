@@ -62,3 +62,72 @@ header {
   font-weight: 400;
   font-size: 14px;
 }
+.burger-button {
+  display: none;
+  border-radius: 0;
+  cursor: pointer;
+}
+.burger-button:hover {
+  opacity: 0.5;
+}
+@media (max-width: 1010px) {
+  .header-container {
+    width: 96%;
+    margin: 0 30px;
+  }
+  .phone-block {
+    display: none;
+  }
+  .nav {
+    width: 482px;
+    margin-left: 0;
+    justify-content: start;
+    gap: 25px;
+  }
+  .languages {
+    margin-right: 30px;
+  }
+}
+@media (max-width: 770px) {
+  .header-container {
+    justify-content: space-between;
+    margin: 0;
+  }
+  .logo-wrapper {
+    margin-left: 30px;
+  }
+  .nav {
+    display: none;
+  }
+  .glasses {
+    margin: 0;
+  }
+  .languages {
+    margin: 0;
+  }
+  .phone-block {
+    display: block;
+  }
+  .burger-button {
+    display: block;
+  }
+}
+@media (max-width: 490px) {
+  .phone-block {
+    display: none;
+  }
+}
+@media (max-width: 390px) {
+  .header-container {
+    width: 100%;
+  }
+  .logo-wrapper {
+    margin-left: 10px;
+  }
+  .languages {
+    display: none;
+  }
+  .burger-button {
+    margin-right: 10px;
+  }
+}

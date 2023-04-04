@@ -11,7 +11,7 @@ img {
 }
 
 .page-container {
-  width: 896px;
+  max-width: 896px;
   margin: 190px auto 150px auto;
 }
 
@@ -68,6 +68,9 @@ img {
   gap: 16px;
   padding: 30px 0 50px 0;
   overflow-x: auto;
+}
+.block-content:last-child {
+  padding-bottom: 0;
 }
 .block-content::-webkit-scrollbar {
   box-sizing: content-box;
