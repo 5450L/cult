@@ -43,6 +43,7 @@
 .more {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-weight: 400;
   font-size: 15px;
   line-height: 140%;
@@ -54,5 +55,48 @@
 
 .date-views {
   margin: 0;
-  gap: 15px;
+  gap: 10px;
+}
+.date img {
+  width: 14px;
+}
+@media (max-width: 770px) {
+  .page-container {
+    max-width: 708px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .container-topic {
+    width: 100%;
+    background-image: url("/assets/background-images/coliseum/medium.png");
+  }
+}
+@media (max-width: 490px) {
+  .container-topic {
+    background-image: url("/assets/background-images/coliseum/small.png");
+  }
+  .posterPage-card {
+    flex-direction: column;
+  }
+  .poster-thumbnail {
+    width: 100%;
+  }
+  .posterPage-card-title {
+    margin-bottom: 20px;
+  }
+  .date-age-premiere {
+    margin-bottom: 10px;
+  }
+  .premiere-description {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 390px) {
+  .container-topic {
+    background-image: url("/assets/background-images/coliseum/xsmall.png");
+  }
+  .date,
+  .views {
+    max-width: 100%;
+  }
 }

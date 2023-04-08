@@ -18,7 +18,7 @@ img {
 .container-topic {
   width: 896px;
   height: 440px;
-  background-image: url("/assets/background-images/coliseum.png");
+  background-image: url("/assets/background-images/coliseum/big.png");
   margin-bottom: 50px;
 }
 .container-title {
@@ -66,7 +66,7 @@ img {
   display: flex;
   justify-content: space-between;
   gap: 16px;
-  padding: 30px 0 50px 0;
+  padding: 30px 0 50px 0 !important;
   overflow-x: auto;
 }
 .block-content:last-child {
@@ -136,12 +136,15 @@ img {
   display: flex;
   justify-content: space-between;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 17px;
   color: #606060;
   margin-bottom: 15px;
+  gap: 10px;
 }
-
+.date img {
+  width: 14px;
+}
 .premiere {
   width: 440px;
 }
@@ -172,4 +175,51 @@ img {
 .premiere-info .date-views {
   justify-content: left;
   gap: 21px;
+}
+
+@media (max-width: 770px) {
+  .page-container {
+    max-width: 708px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .container-topic {
+    width: 100%;
+    background-image: url("/assets/background-images/coliseum/medium.png");
+  }
+}
+@media (max-width: 490px) {
+  .container-topic {
+    background-image: url("/assets/background-images/coliseum/small.png");
+  }
+  .container-description {
+    margin-bottom: 65px;
+  }
+  .container-topic .main-button {
+    margin-bottom: 41px;
+  }
+  .container-block:not(.first) {
+    padding-top: 0;
+  }
+  .block-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .block-content .main-button {
+    width: 420px;
+  }
+
+  .card {
+    max-width: 100%;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d4d8e2;
+  }
+}
+@media (max-width: 390px) {
+  .container-topic {
+    background-image: url("/assets/background-images/coliseum/xsmall.png");
+  }
+  .block-content .main-button {
+    max-width: 320px !important;
+  }
 }
