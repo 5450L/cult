@@ -10,6 +10,9 @@ img {
   border-radius: 10px;
 }
 
+main {
+  position: relative;
+}
 .page-container {
   max-width: 896px;
   margin: 190px auto 150px auto;

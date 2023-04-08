@@ -16,7 +16,7 @@
 .block-content {
   display: flex;
   justify-content: flex-start;
-  gap: 13px;
+  gap: 12px;
   flex-wrap: wrap;
   overflow: auto;
 }
@@ -25,5 +25,46 @@
 }
 
 footer {
+  width: 100%;
   margin-top: 100px;
+}
+@media (max-width: 770px) {
+  .container-topic {
+    width: 100%;
+    background-image: url("/assets/background-images/masks/medium.png");
+  }
+  .actor-card {
+    max-width: 228px;
+  }
+  .actor-photo {
+    width: 100%;
+  }
+}
+@media (max-width: 490px) {
+  .container-topic {
+    background-image: url("/assets/background-images/masks/small.png");
+  }
+  .container-description {
+    margin-bottom: 65px;
+  }
+  .container-topic .main-button {
+    margin-bottom: 41px;
+  }
+  .block-content {
+    flex-direction: row;
+  }
+  .actor-card {
+    max-width: 205px;
+  }
+}
+@media (max-width: 390px) {
+  .container-topic {
+    background-image: url("/assets/background-images/masks/xsmall.png");
+  }
+  .block-content {
+    flex-direction: column;
+  }
+  .actor-card {
+    max-width: 340px;
+  }
 }

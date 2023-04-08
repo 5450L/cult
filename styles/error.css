@@ -1,0 +1,70 @@
+body {
+  position: relative;
+  background: #283d6d;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  position: absolute;
+  top: 70px;
+  left: 90px;
+}
+
+.error-wrapper {
+  font-family: "Montserrat";
+  font-style: normal;
+  color: white;
+}
+.error-code {
+  font-weight: 700;
+  font-size: 200px;
+  line-height: 244px;
+}
+.error-text {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+}
+@media (max-width: 1010px) {
+  body {
+    height: 766px;
+  }
+  .error-code {
+    font-size: 180px;
+    line-height: 219px;
+  }
+  .error-text {
+    font-size: 32px;
+  }
+}
+@media (max-width: 770px) {
+  body {
+    height: 1000px;
+  }
+}
+@media (max-width: 490px) {
+  body {
+    height: 360px;
+  }
+  img {
+    top: 35px;
+    left: 35px;
+    width: 157px;
+    height: 59px;
+  }
+  .error-code {
+    font-size: 96px;
+    line-height: 117px;
+  }
+  .error-text {
+    font-size: 16px;
+    line-height: 100%;
+  }
+}
+@media (max-width: 390px) {
+  body {
+    height: 480px;
+  }
+}
