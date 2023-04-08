@@ -91,7 +91,7 @@ footer img {
   .footer-container {
     height: 100%;
   }
-  .logo-wrapper {
+  footer .logo-wrapper {
     margin-top: 60px;
   }
   .first-adaptive-column {
@@ -105,15 +105,68 @@ footer img {
     line-height: 22px;
     margin-bottom: 65px;
   }
-  .other {
-    margin-top: 60px;
-  }
   .other .phone-block {
+    margin-top: 60px;
     display: block;
+    text-align: left;
+  }
+  .other .languages {
+    margin-top: 92px;
   }
   .scroll-button {
+    top: -27.5px;
     width: 55px;
   }
 }
 @media (max-width: 390px) {
+  footer {
+    width: 100%;
+  }
+  .footer-container {
+    gap: 16px;
+    width: 100%;
+    margin: auto 10px;
+  }
+  .other {
+    padding-right: 13px;
+    max-width: 100%;
+  }
+  .footer-container .nav {
+    justify-content: space-between;
+    width: 100%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .first-adaptive-column {
+    width: 100%;
+  }
+  .other .phone-block {
+    width: 100%;
+  }
+  .phone {
+    font-size: 15px;
+  }
+  .time {
+    font-weight: 400;
+    font-size: 12px;
+    width: 147px;
+  }
+  .other .languages {
+    width: 100%;
+    display: flex;
+  }
+  .other .social-media {
+    width: 100%;
+  }
+  .privacy {
+    width: 100%;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+  }
+  .first-adaptive-column,
+  .other {
+    margin: 0;
+  }
 }
